@@ -1,0 +1,54 @@
+.recent-played-section {
+  padding: 2rem;
+}
+
+.recent-header {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+
+.recent-musics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.recent-music img {
+  max-width: 220px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s linear;
+  border-radius: 5px;
+}
+
+.recent-music img:hover {
+  box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+.recent-music span {
+  display: flex;
+}
+
+.song-name {
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+.singer-name {
+  color: rgb(97, 93, 93);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .recent-musics {
+    flex-direction: column;
+  }
+
+  .recent-music img {
+    max-width: 100%;
+  }
+}

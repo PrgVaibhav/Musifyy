@@ -1,0 +1,53 @@
+.top-podcaster-section {
+  width: 50%;
+  padding: 2rem;
+}
+
+.top-podcaster-header {
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.artist-description {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.artist-image img {
+  max-width: 50px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+.artist-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-name {
+  font-size: 1.1rem;
+}
+
+.artist-followers {
+  font-size: 0.8rem;
+  color: rgb(129, 127, 127);
+}
+
+.verified {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .top-podcaster-section {
+    width: 100%;
+    padding: 1.4remx;
+  }
+}

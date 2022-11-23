@@ -1,0 +1,10 @@
+.profile-img img {
+  max-width: 30px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.down-arrow {
+  cursor: pointer;
+}

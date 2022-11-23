@@ -1,0 +1,75 @@
+.music-player-section {
+  position: sticky;
+  bottom: 0;
+  background: #1c1a22;
+  width: 100%;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.music-player {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.song-details {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.song-details img {
+  max-width: 80px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.song-name {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.song-controls {
+  font-size: 2rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.icon {
+  padding: 0.2rem;
+  transition: all 350ms ease-in-out;
+}
+
+.icon:hover {
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.song-range-duration {
+  display: flex;
+  gap: 2rem;
+}
+
+.song-range-duration input[type='range'] {
+}
+
+@media (max-width: 768px) {
+  .music-player {
+    flex-direction: column;
+  }
+  .song-details img {
+    max-width: 60px;
+  }
+
+  .icon {
+    margin-top: 1rem;
+  }
+
+  .song-range-duration {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+ul {
+  padding-top: 1.4rem;
+}
+
+ul .list-name {
+  text-align: center;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: rgb(70, 69, 69);
+  margin-bottom: 1.6rem;
+}
+
+ul .sidebar-lists {
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  transition: all 350ms ease-in;
+  cursor: pointer;
+}
+
+.sidebar-lists:hover {
+  transform: translateX(6px);
+}
+
+.sidebar-item {
+  font-size: 1.1rem;
+}
