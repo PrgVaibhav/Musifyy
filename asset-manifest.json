@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Musifyy/static/css/main.48482aaa.css",
+    "main.js": "/Musifyy/static/js/main.937bca86.js",
+    "static/media/album-4.avif": "/Musifyy/static/media/album-4.2da92d9c8f6813551379.avif",
+    "static/media/artist-4.jpg": "/Musifyy/static/media/artist-4.1226f28b5fc9c679016a.jpg",
+    "static/media/artist-2.jpg": "/Musifyy/static/media/artist-2.a18c54a04844f292a3e4.jpg",
+    "static/media/artist-3.jpg": "/Musifyy/static/media/artist-3.858cc575caf241eed094.jpg",
+    "static/media/album-3.avif": "/Musifyy/static/media/album-3.56f468ff16250b30843a.avif",
+    "static/media/artist-1.jpg": "/Musifyy/static/media/artist-1.286c3bf431f652b4b1e7.jpg",
+    "static/media/album-2.avif": "/Musifyy/static/media/album-2.47a24a5a198ebacf5c8f.avif",
+    "static/media/user.jpg": "/Musifyy/static/media/user.09e716c54f996c0736ab.jpg",
+    "static/media/album-1.avif": "/Musifyy/static/media/album-1.f2e14fa089f0de7e3930.avif",
+    "index.html": "/Musifyy/index.html",
+    "main.48482aaa.css.map": "/Musifyy/static/css/main.48482aaa.css.map",
+    "main.937bca86.js.map": "/Musifyy/static/js/main.937bca86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48482aaa.css",
+    "static/js/main.937bca86.js"
+  ]
+}
